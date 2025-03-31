@@ -27,7 +27,6 @@ class Child : public Parent {
 
     public:
         Child() : cval(300){}
-        
         int getValue() { return cval; }
         
         
