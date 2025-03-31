@@ -9,9 +9,6 @@ class Parent {
         Parent(int _i) : parent_var(_i) { std::cout << "int constructor of parent" << std::endl; }; // Overloading
         ~Parent() {std::cout << "destructor of parent" << std::endl;}
         int getParentVar() const { return parent_var; }
-
-
-
 };
 
 class Child : public Parent{  
@@ -32,7 +29,6 @@ class Child : public Parent{
 
         ~Child() { std::cout << "destructor of child" << std::endl; }
         int getChildVar() const { return child_var; }
-
 };
 
 
