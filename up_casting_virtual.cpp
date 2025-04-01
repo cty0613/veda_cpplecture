@@ -6,7 +6,7 @@ class X {
     public:
         X() {cout << "X-constructor" << endl;}
         virtual void func(void) { cout << "X func" << endl;} // 야 여기말고 자식놈들 메서드 찾아봐
-        virtual void func(void) = 0; // 자식놈들이 반드시 구현해줘야함, 무조건 override 필요, 함수작성도 여기서 안함
+        virtual void func(void) = 0; // 자식놈들이 반드시 구현해줘야함, 무조건 override 필요, just interface
 
         ~X() { cout << "X-destrtucted" << endl;}
 
